@@ -163,6 +163,7 @@ main>h1 {
 	line-height: 1em;
 	letter-spacing: 0.03em;
 	font-style: italic;
+	-o-transform: rotate(0.01deg);
 }
 main>.columns {
 	margin: 10px 0;
@@ -181,6 +182,7 @@ main>.columns>p {
 	text-align: justify;
 	-webkit-text-justify: distribute;
 	text-justify: distribute;
+	-o-transform: rotate(0.01deg);
 }
 main>.columns>p>abbr {
     border-bottom: 1px dotted rgba(255,255,255,0.5);
@@ -220,6 +222,7 @@ nav figure>figcaption {
 	font-variant: small-caps;
 	text-decoration: none;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.05);
+	-o-transform: rotate(0.01deg);
 }
 
 
