@@ -184,6 +184,12 @@ main>.columns>p {
 	text-justify: distribute;
 	-o-transform: rotate(0.01deg);
 }
+main>.columns>p>span {
+	display: inline-block;
+}
+main>.columns>p>span::first-letter {
+	font-weight: bold;
+}
 main>.columns>p>abbr {
     border-bottom: 1px dotted rgba(255,255,255,0.5);
 	cursor: help;
@@ -235,6 +241,13 @@ nav figure>figcaption {
 }
 @media (min-width: 556px) and (max-width: 843px) {
 .wrapper { width: 480px }
+header>.social-likes {
+	float: left;
+	min-height: 0;
+	margin: -18px 0 0 114px;
+	padding: 0;
+	border-left: none;
+}
 main>h1 {
 	font-size: 1.2em;
 }
@@ -262,12 +275,18 @@ nav figure>figcaption {
 header {
 	padding: 15px 0;
 }
+header .logo {
+	height: 85px;
+}
 header>.social-likes {
 	float: left;
 	min-height: 0;
-	margin: -24px 0 0 77px;
+	margin: -12px 0 0 83px;
 	padding: 0;
-	border-left: none;	
+	border-left: none;
+}
+main {
+	display: none;
 }
 main>h1 {
 	font-size: 1.2em;
@@ -284,7 +303,7 @@ main>.columns>p {
 	font-size: 0.97em;
 }
 nav {
-	margin-top: 0;
+	margin-top: 25px;
 }
 nav figure>img {
 	width: 90px;
@@ -302,12 +321,18 @@ body {
 header {
 	padding: 15px 0;
 }
+header .logo {
+	height: 85px;
+}
 header>.social-likes {
 	float: left;
 	min-height: 0;
-	margin: -24px 0 0 77px;
+	margin: -12px 0 0 83px;
 	padding: 0;
 	border-left: none;	
+}
+main {
+	display: none;
 }
 main>h1 {
 	font-size: 1.2em;
@@ -324,7 +349,7 @@ main>.columns>p {
 	font-size: 0.97em;
 }
 nav {
-	margin-top: 0;
+	margin-top: 25px;
 }
 nav figure>img {
 	width: 80px;
