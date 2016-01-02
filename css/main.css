@@ -218,6 +218,14 @@ nav figure {
 nav figure:hover {
 	opacity: 0.99;
 }
+nav figure.down {
+	opacity: 0.5;
+	cursor: default;
+}
+nav figure.down:hover {
+	opacity: 0.5;
+	cursor: default;
+}
 nav figure>img {
 	width: 190px;
 }
