@@ -367,3 +367,26 @@ nav figure>figcaption {
 	line-height: 1em;
 }
 }
+
+@media print {
+@page {
+	margin: 0;
+}
+
+*:not(html):not(body) {
+	visibility: hidden;
+}
+
+.wrapper { min-height: 275mm; }
+
+body {
+	background: url(../image/print.svg) no-repeat center center #000;
+	background-size: contain !important;
+	-webkit-print-color-adjust: exact; /*ignore in body element*/
+}
+}
+@media print and (max-width: 150mm) {
+body {
+	background: url(../image/print.mini.svg) no-repeat center center #000;
+}
+}
