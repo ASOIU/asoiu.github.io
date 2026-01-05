@@ -73,7 +73,6 @@ body {
 	96% { background: fixed url(../image/noise/7.png) repeat, fixed url(../image/back.jpg) no-repeat center top #fafafa; }	
 }*/
 
-/*for Opera Presto add .bnoise*/
 body:before {
 	content: '';
 	position: fixed;
